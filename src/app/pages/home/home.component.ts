@@ -12,7 +12,7 @@ export class HomeComponent {
   lanzar() {
     const numero = this.numeroRandom();
     if (numero === this.prevUsado) {
-      this.dado = this.numeroRandom();
+      this.lanzar();
     }
     this.prevUsado = numero;
     this.dado = numero;
