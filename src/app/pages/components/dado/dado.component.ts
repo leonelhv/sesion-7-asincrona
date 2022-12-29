@@ -19,4 +19,8 @@ export class DadoComponent {
   numeroRandom(): number {
     return Math.floor(Math.random() * (6 - 1 + 1)) + 1;
   }
+  reiniciar() {
+    this.dado = 0;
+    this.prevUsado = 0;
+  }
 }

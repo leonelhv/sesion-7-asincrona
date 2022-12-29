@@ -2,6 +2,8 @@
   <div>
     <img src="assets/img/dado{{ dado }}.png" alt="" />
   </div>
-
-  <button class="btn btn-primary" (click)="lanzar()">Lanzar dado</button>
+  <div class="d-flex gap-2">
+    <button class="btn btn-primary" (click)="lanzar()">Lanzar dado</button>
+    <button class="btn btn-danger" (click)="reiniciar()">Reiniciar dado</button>
+  </div>
 </div>
