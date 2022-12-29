@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class DadoComponent {
   dado: number = 0;
-  lista: number[] = [1, 2, 3, 4, 5, 6];
   prevUsado: number = 0;
   lanzar() {
     const numero = this.numeroRandom();
